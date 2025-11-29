@@ -35,7 +35,7 @@ const ExtraCurricular = () => {
     >
       <h2 className="text-3xl font-bold text-center mb-8">Extra-Curricular Activities</h2>
 
-      <div className="flex flex-wrap justify-center gap-6">
+      <div className="w-full flex flex-wrap justify-center gap-6">
         {activities.map((activity) => (
           <div
             key={activity.id}

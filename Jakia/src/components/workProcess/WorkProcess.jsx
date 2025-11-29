@@ -68,7 +68,8 @@ const WorkProcess = () => {
     //   </div>
     // </div>
     <div
-      className="content flex flex-col justify-center items-center px-2 py-6 md:py-8 lg:py-12 xl:py-16 max-xxl:px-4 -mt-[200px]"
+      className="content flex flex-col justify-center items-center px-2 py-6 md:py-8 lg:py-12 xl:py-16 max-xxl:px-4 mt-[30px] md:-mt-[200px]"
+
       id="work-process"
     >
 
@@ -89,7 +90,7 @@ const WorkProcess = () => {
 
 
       {/* Second div */}
-      <div className="flex justify-center items-start gap-x-4 my-2 w-full">
+      <div className="w-full flex md:flex md:flex-row grid grid-cols-2 justify-center items-start gap-x-4 gap-y-4 my-2">
         {workStepData.map((data, index) => {
           return (
             <WorkSteps
